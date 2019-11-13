@@ -4,9 +4,8 @@
 #
 ################################################################################
 
-SDL_VERSION = 1.2.15
-SDL_SOURCE = SDL-$(SDL_VERSION).tar.gz
-SDL_SITE = http://www.libsdl.org/release
+SDL_SOURCE = SDL12.tar.gz
+SDL_SITE = https://github.com/spurious/SDL-mirror/archive
 SDL_LICENSE = LGPLv2.1+
 SDL_LICENSE_FILES = COPYING
 SDL_INSTALL_STAGING = YES
